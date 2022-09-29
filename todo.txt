@@ -1,0 +1,11 @@
+del index
+    html:
+        -buscar una imagen stock de gente de una empresa
+        -hacer un logo en inkscape
+        -un footer con los enlaces de la navBar
+    
+
+    css:
+        -aun no he empezado
+    
+del resto de paginas: todo

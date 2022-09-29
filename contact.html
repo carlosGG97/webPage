@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Merriweather&family=Roboto&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <title>BigoSoft-Contacto</title>
+  </head>
+  <body>
+    <div class="nav-fixed">
+      <div class="nav-bar">
+        <a href="index.html">Página principal </a>
+        <a href="about.html">¿Quiénes somos? </a>
+        <a href="products.html">Productos </a>
+        <a href="services.html">Servicios </a>
+        <a href="contact.html">Contacto</a>
+      </div>
+    </div>
+    <div class="main-container">
+      <div class="top-container">
+        <h1 class="location-title">¿Dónde estamos?</h1>
+        <div>
+          <iframe
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d729.345410742676!2d-7.564199851674846!3d43.012353565887615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd31ce8898e4c5cd%3A0xdc0d46d5e5125328!2sR%C3%BAa%20Doutor%20Xerm%C3%A1n%20Alonso%20Hortas%2C%2022%2C%2027004%20Lugo!5e0!3m2!1sen!2ses!4v1651764632249!5m2!1sen!2ses"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div>
+          <p class="map-text">
+            <ul class="map-text">
+                <li>España</li>
+                <li>Galicia</li>
+                <li>C/ Doctor Xerman Alonso 22</li>
+                <li>27004</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div class="middle-container middle-container-2">
+        <h1>Solicitud de Informacion</h1>
+        <div >
+           <form id="big-form" class="contact-form" enctype="text/plain" action="mailto:BigoSoft@Gmail.com" method="post">
+                <fieldset>
+                    <label for="fullName">Tu Nombre:</label>
+                    <input type="text" name="fullName" value="" id="fullName"/>
+
+                    <label for="yourEmail">Tu Correo:</label>
+                    <input type="email" name="yourEmail" value="" id="yourEmail"/>
+
+                    <label for="yourPhone">Tu Telefono:</label>
+                    <input type="email" name="yourPhone" value="" id="yourPhone"/><br /><br><br>
+
+                    <label for="">En que podemos ayudarte:</label><br />
+                    <textarea name="yourMessage" id="yourMessage" cols="30" rows="10"></textarea><br />
+                    <input type="submit" name="" />
+                </fieldset>
+            </form>
+        </div>
+        <div>
+            <br>
+            <br>
+            <h1>Trabaja con nosotros!</h1>
+            <p class="solicitud-trabajo"><a  href="solicitudTrabajo.html">Este</a> enlace te llevara al formulario de solicitud de empleo</p>
+        </div>
+    </div>
+      <div class="bottom-container">
+        <p>Encuentranos en:</p>
+        <ul>
+          <hr class="hr-footer" />
+          <li><a href="https://twitter.com/?lang=en">Twitter</a></li>
+          <hr class="hr-footer" />
+          <li><a href="https://www.instagram.com/">Instagram</a></li>
+          <hr class="hr-footer" />
+          <li><a href="https://www.instagram.com/">Facebook</a></li>
+          <hr class="hr-footer" />
+          <li><a href="https://www.linkedin.com/">Linkdin</a></li>
+          <hr class="hr-footer" />
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,356 @@
+/*  ******************* Global styles ******************* */
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*  ******************* Index styles ******************* */
+.main-container {
+  position: absolute;
+  top: 58px;
+  width: 100%;
+}
+body {
+  margin: 0;
+  text-align: center;
+  height: 100%;
+}
+.nav-bar {
+  z-index: 100;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 20px;
+  background-color: #565656;
+}
+.top-container h1 {
+  font-family: "Sacramento", sans-serif;
+  font-size: 70px;
+}
+.top-container {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #c4ddff;
+  padding: 100px 40%;
+}
+.p-index-1 {
+  margin-top: 15px;
+}
+.middle-text {
+  margin: 0 40%;
+}
+.middle-container h1 {
+  font-family: "Sacramento", sans-serif;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.middle-container {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #7fb5ff;
+  padding: 100px;
+}
+.bottom-container p {
+  font-family: "Sacramento", sans-serif;
+  font-size: 40px;
+}
+.bottom-container a {
+  font-family: "Sacramento", sans-serif;
+  font-size: 30px;
+}
+.bottom-container {
+  background-color: #001d6e;
+  padding: 100px;
+}
+.computer {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.buildings {
+  margin-right: 50px;
+  height: 300px;
+  width: 150px;
+  border-radius: 4%;
+}
+.desktop {
+  margin-left: 50px;
+  width: 150px;
+  height: 300px;
+  border-radius: 4%;
+}
+ul {
+  list-style: none;
+}
+
+.nav-bar a:link,
+.nav-bar a:visited,
+.bottom-container a:link,
+.bottom-container a:visited {
+  color: blanchedalmond;
+  text-decoration: none;
+  padding: 20px;
+}
+.alternative-link a:link,
+.alternative-link a:visited {
+  color: greenyellow;
+  text-shadow: 1px 1px 1px black;
+}
+.bottom-container p {
+  color: aqua;
+  padding-bottom: 20px;
+}
+.hr-footer {
+  border: dotted 5px;
+  border-style: dotted none none;
+  margin-left: 45%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-color: #c4ddff;
+  border-width: 5%;
+  height: 0px;
+  width: 10%;
+}
+
+/*  ******************* About styles ******************* */
+.html-code {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: relative;
+  right: 80px;
+  top: 20px;
+}
+.glasses-code {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: relative;
+  left: 80px;
+  top: 20px;
+}
+.about-text-1 {
+  position: relative;
+  display: inline-block;
+}
+.about-text-2 {
+  position: relative;
+  display: inline-block;
+}
+.about-text-1 h1 {
+  margin-top: 50px;
+}
+.relevant-links a:link,
+.relevant-links a:visited {
+  color: blanchedalmond;
+  text-decoration: none;
+}
+.about-text-1 {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 100px 20%;
+}
+.web-design {
+  height: 200px;
+  width: 200px;
+}
+.relevant-link-hr {
+  border: dotted 5px;
+  border-style: dotted none none;
+  margin-left: 45%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-width: 5%;
+  height: 0px;
+  width: 10%;
+}
+
+/*  ******************* Product styles ******************* */
+.product-table {
+  table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  border-collapse: collapse;
+  border: 3px solid black;
+}
+thead th:nth-child(1) {
+  width: 20%;
+}
+thead th:nth-child(2) {
+  width: 30%;
+}
+thead th:nth-child(3) {
+  width: 20%;
+}
+thead th:nth-child(4) {
+  width: 30%;
+}
+th,
+td {
+  padding: 20px;
+}
+table {
+  font-family: "Roboto";
+  background-color: #c4ddff;
+}
+thead th,
+tfoot th,
+tfoot td {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  color: aqua;
+  text-shadow: 1px 1px 1px black;
+  background: linear-gradient(to bottom, rgba(0, 29, 110, 0.1), rgba(0, 29, 110, 0.7));
+  border: 2px solid black;
+}
+th {
+  letter-spacing: 2px;
+}
+td {
+  letter-spacing: 1px;
+}
+tbody td {
+  text-align: center;
+}
+th tfoot {
+  text-align: right;
+}
+tbody tr:nth-child(odd) {
+  background-color: #c4ddff;
+}
+tbody tr:nth-child(even) {
+  background-color: #7fb5ff;
+}
+/*  ******************* Contact styles ******************* */
+.map,
+.map-text {
+  display: inline-block;
+}
+.map {
+  position: relative;
+  right: 300px;
+  margin-top: 100px;
+  border-radius: 5%;
+}
+.map-text {
+  position: relative;
+  left: 300px;
+  bottom: 400px;
+  margin-left: 100px;
+}
+.top-container .location-title {
+  margin: auto;
+  width: 500px;
+  font-size: 50px;
+}
+fieldset {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  background: linear-gradient(to bottom, rgba(0, 29, 110, 0.1), rgba(0, 29, 110, 0.6));
+  margin: auto;
+  padding: 1em 2em;
+  border: solid 1px black;
+  border-radius: 6px;
+  min-width: 200px;
+  max-width: 600px;
+}
+label {
+  display: block;
+  margin-top: 1em;
+}
+label:first-of-type {
+  margin-top: 0;
+}
+input {
+  padding: 0.5em;
+  border: solid 1px #999;
+}
+input[type="email"],
+input[type="text"] {
+  width: 15em;
+}
+textarea {
+  min-height: 8em;
+  min-width: 80%;
+  padding: 0.5em;
+  border: solid 1px #999;
+}
+input[type="submit"] {
+  margin-top: 20px;
+  color: antiquewhite;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  background-color: #333;
+  font-size: large;
+}
+.solicitud-trabajo a:link,
+.solicitud-trabajo a:visited {
+  color: blanchedalmond;
+  text-decoration: none;
+}
+.work-form {
+  margin-top: 30px;
+  min-width: 80%;
+}
+.form-label {
+  font-size: 30px;
+  color: #333;
+}
+.form-subheading {
+  font-size: 25px;
+  border: #333 solid 1px;
+  background-color: #999;
+  border-radius: 5px;
+}
+
+/*  ******************* Services styles ******************* */
+.hr-services {
+  border: dotted 5px;
+  border-style: dotted none none;
+  margin-left: 45%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-color: black;
+  border-width: 5%;
+  height: 0px;
+  width: 20%;
+  margin: auto;
+}
+.salesman {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+.service-table > thead th,
+.service-table > tfoot th,
+.service-table > tfoot td {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  color: wheat;
+  text-shadow: 1px 1px 1px black;
+  background: linear-gradient(to bottom, rgba(37, 29, 58, 0.3), rgba(37, 29, 58, 0.9));
+  border: 2px solid black;
+}
+.service-table > tfoot th,
+.service-table > tfoot td {
+  background: linear-gradient(to bottom, rgba(224, 77, 1, 0.3), rgba(224, 77, 1, 0.9));
+  color: #333;
+}
+.service-table > tbody tr:nth-child(odd) {
+  background-color: rgba(255, 119, 0, 0.5);
+}
+.service-table > tbody tr:nth-child(even) {
+  background-color: rgba(127, 181, 255, 0.2);
+}
+.p-index-1 a:visited,
+.p-index-1 a:link {
+  color: blanchedalmond;
+  text-decoration: none;
+}
